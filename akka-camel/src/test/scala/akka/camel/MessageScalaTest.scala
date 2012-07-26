@@ -1,94 +1,78 @@
+/**
+ * Copyright (C) 2009-2012 Typesafe Inc. <http://www.typesafe.com>
+ */
+
 package akka.camel
 
 import java.io.InputStream
 
 import org.apache.camel.NoTypeConversionAvailableException
-import org.junit.Assert._
-import org.junit.Test
+import akka.camel.TestSupport.{ SharedCamelSystem }
+import org.scalatest.FunSuite
+import org.scalatest.matchers.MustMatchers
 
-import org.scalatest.BeforeAndAfterAll
-import org.scalatest.junit.JUnitSuite
-
-class MessageScalaTest extends JUnitSuite with BeforeAndAfterAll {
-  override protected def beforeAll = CamelContextManager.init
-
-  @Test
-  def shouldConvertDoubleBodyToString = {
-    assertEquals("1.4", Message(1.4).bodyAs[String])
+class MessageScalaTest extends FunSuite with MustMatchers with SharedCamelSystem {
+  implicit def camelContext = camel.context
+  test("mustConvertDoubleBodyToString") {
+    CamelMessage(1.4, Map.empty).bodyAs[String] must be("1.4")
   }
 
-  @Test
-  def shouldThrowExceptionWhenConvertingDoubleBodyToInputStream {
+  test("mustThrowExceptionWhenConvertingDoubleBodyToInputStream") {
     intercept[NoTypeConversionAvailableException] {
-      Message(1.4).bodyAs[InputStream]
+      CamelMessage(1.4, Map.empty).bodyAs[InputStream]
     }
   }
 
-  @Test
-  def shouldReturnDoubleHeader = {
-    val message = Message("test", Map("test" -> 1.4))
-    assertEquals(1.4, message.header("test"))
+  test("mustReturnDoubleHeader") {
+    val message = CamelMessage("test", Map("test" -> 1.4))
+    message.header("test").get must be(1.4)
   }
 
-  @Test
-  def shouldConvertDoubleHeaderToString = {
-    val message = Message("test", Map("test" -> 1.4))
-    assertEquals("1.4", message.headerAs[String]("test"))
+  test("mustConvertDoubleHeaderToString") {
+    val message = CamelMessage("test", Map("test" -> 1.4))
+    message.headerAs[String]("test").get must be("1.4")
   }
 
-  @Test
-  def shouldReturnSubsetOfHeaders = {
-    val message = Message("test", Map("A" -> "1", "B" -> "2"))
-    assertEquals(Map("B" -> "2"), message.headers(Set("B")))
+  test("mustReturnSubsetOfHeaders") {
+    val message = CamelMessage("test", Map("A" -> "1", "B" -> "2"))
+    message.headers(Set("B")) must be(Map("B" -> "2"))
   }
 
-  @Test
-  def shouldTransformBodyAndPreserveHeaders = {
-    assertEquals(
-      Message("ab", Map("A" -> "1")),
-      Message("a", Map("A" -> "1")).transformBody((body: String) ⇒ body + "b"))
+  test("mustTransformBodyAndPreserveHeaders") {
+    CamelMessage("a", Map("A" -> "1")).mapBody((body: String) ⇒ body + "b") must be(CamelMessage("ab", Map("A" -> "1")))
   }
 
-  @Test
-  def shouldConvertBodyAndPreserveHeaders = {
-    assertEquals(
-      Message("1.4", Map("A" -> "1")),
-      Message(1.4, Map("A" -> "1")).setBodyAs[String])
+  test("mustConvertBodyAndPreserveHeaders") {
+    CamelMessage(1.4, Map("A" -> "1")).withBodyAs[String] must be(CamelMessage("1.4", Map("A" -> "1")))
   }
 
-  @Test
-  def shouldSetBodyAndPreserveHeaders = {
-    assertEquals(
-      Message("test2", Map("A" -> "1")),
-      Message("test1", Map("A" -> "1")).setBody("test2"))
-  }
-
-  @Test
-  def shouldSetHeadersAndPreserveBody = {
-    assertEquals(
-      Message("test1", Map("C" -> "3")),
-      Message("test1", Map("A" -> "1")).setHeaders(Map("C" -> "3")))
+  test("mustSetBodyAndPreserveHeaders") {
+    CamelMessage("test1", Map("A" -> "1")).withBody("test2") must be(
+      CamelMessage("test2", Map("A" -> "1")))
 
   }
 
-  @Test
-  def shouldAddHeaderAndPreserveBodyAndHeaders = {
-    assertEquals(
-      Message("test1", Map("A" -> "1", "B" -> "2")),
-      Message("test1", Map("A" -> "1")).addHeader("B" -> "2"))
+  test("mustSetHeadersAndPreserveBody") {
+    CamelMessage("test1", Map("A" -> "1")).withHeaders(Map("C" -> "3")) must be(
+      CamelMessage("test1", Map("C" -> "3")))
+
   }
 
-  @Test
-  def shouldAddHeadersAndPreserveBodyAndHeaders = {
-    assertEquals(
-      Message("test1", Map("A" -> "1", "B" -> "2")),
-      Message("test1", Map("A" -> "1")).addHeaders(Map("B" -> "2")))
+  test("mustAddHeaderAndPreserveBodyAndHeaders") {
+    CamelMessage("test1", Map("A" -> "1")).addHeader("B" -> "2") must be(
+      CamelMessage("test1", Map("A" -> "1", "B" -> "2")))
+
   }
 
-  @Test
-  def shouldRemoveHeadersAndPreserveBodyAndRemainingHeaders = {
-    assertEquals(
-      Message("test1", Map("A" -> "1")),
-      Message("test1", Map("A" -> "1", "B" -> "2")).removeHeader("B"))
+  test("mustAddHeadersAndPreserveBodyAndHeaders") {
+    CamelMessage("test1", Map("A" -> "1")).addHeaders(Map("B" -> "2")) must be(
+      CamelMessage("test1", Map("A" -> "1", "B" -> "2")))
+
+  }
+
+  test("mustRemoveHeadersAndPreserveBodyAndRemainingHeaders") {
+    CamelMessage("test1", Map("A" -> "1", "B" -> "2")).withoutHeader("B") must be(
+      CamelMessage("test1", Map("A" -> "1")))
+
   }
 }

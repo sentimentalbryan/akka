@@ -41,7 +41,7 @@ object AkkaBuild extends Build {
       sphinxLatex <<= sphinxLatex in LocalProject(docs.id),
       sphinxPdf <<= sphinxPdf in LocalProject(docs.id)
     ),
-    aggregate = Seq(actor, testkit, actorTests, remote, slf4j, agent, transactor, mailboxes, zeroMQ, kernel, akkaSbtPlugin, actorMigration, samples, tutorials, docs)
+    aggregate = Seq(actor, testkit, actorTests, remote, camel, slf4j, agent, transactor, mailboxes, zeroMQ, kernel, akkaSbtPlugin, actorMigration, samples, tutorials, docs)
   )
 
   lazy val actor = Project(
@@ -260,6 +260,15 @@ object AkkaBuild extends Build {
       libraryDependencies ++= Dependencies.kernel,
       previousArtifact := akkaPreviousArtifact("akka-kernel")
     )
+  )
+
+  lazy val camel = Project(
+     id = "akka-camel",
+     base = file("akka-camel"),
+     dependencies = Seq(actor, slf4j, testkit % "test->test"),
+     settings = defaultSettings ++ Seq(
+       libraryDependencies ++= Dependencies.camel
+     )
   )
 
   lazy val actorMigration = Project(
@@ -499,6 +508,8 @@ object Dependencies {
   val spring = Seq(springBeans, springContext, Test.junit, Test.scalatest)
 
   val kernel = Seq(Test.scalatest, Test.junit)
+
+  val camel = Seq(camelCore, Test.scalatest, Test.junit, Test.mockito)
 
   // TODO: resolve Jetty version conflict
   // val sampleCamel = Seq(camelCore, camelSpring, commonsCodec, Runtime.camelJms, Runtime.activemq, Runtime.springJms,
