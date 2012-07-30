@@ -112,5 +112,5 @@ private[akka] trait BatchingExecutor extends Executor {
   }
 
   /** Override this to define which runnables will be batched. */
-  def batchable(runnable: Runnable): Boolean = runnable.isInstanceOf[Batchable]
+  def batchable(runnable: Runnable): Boolean = runnable.isInstanceOf[scala.concurrent.OnCompleteRunnable] || runnable.isInstanceOf[Batchable]
 }
