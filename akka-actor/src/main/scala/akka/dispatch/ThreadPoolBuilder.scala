@@ -81,7 +81,7 @@ case class ThreadPoolConfig(allowCorePoolTimeout: Boolean = ThreadPoolConfig.def
         threadTimeout.unit,
         queueFactory(),
         threadFactory,
-        rejectionPolicy) with LoadMetrics {
+        rejectionPolicy) with BatchingExecutor with LoadMetrics {
         def atFullThrottle(): Boolean = this.getActiveCount >= this.getPoolSize
       }
       service.allowCoreThreadTimeOut(allowCorePoolTimeout)

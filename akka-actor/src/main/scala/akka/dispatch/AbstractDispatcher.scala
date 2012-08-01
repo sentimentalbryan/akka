@@ -116,7 +116,13 @@ private[akka] case class Unwatch(watchee: ActorRef, watcher: ActorRef) extends S
  */
 private[akka] case object NoMessage extends SystemMessage // switched into the mailbox to signal termination
 
-final case class TaskInvocation(eventStream: EventStream, runnable: Runnable, cleanup: () ⇒ Unit) extends Runnable {
+final case class TaskInvocation(eventStream: EventStream, runnable: Runnable, cleanup: () ⇒ Unit) extends Batchable {
+  final override def isBatchable: Boolean = runnable match {
+    case b: Batchable                           ⇒ b.isBatchable
+    case _: scala.concurrent.OnCompleteRunnable ⇒ true
+    case _                                      ⇒ false
+  }
+
   def run(): Unit =
     try runnable.run() catch {
       case NonFatal(e) ⇒ eventStream.publish(Error(e, "TaskInvocation", this.getClass, e.getMessage))
@@ -474,7 +480,7 @@ object ForkJoinExecutorConfigurator {
   final class AkkaForkJoinPool(parallelism: Int,
                                threadFactory: ForkJoinPool.ForkJoinWorkerThreadFactory,
                                unhandledExceptionHandler: Thread.UncaughtExceptionHandler)
-    extends ForkJoinPool(parallelism, threadFactory, unhandledExceptionHandler, true) with LoadMetrics {
+    extends ForkJoinPool(parallelism, threadFactory, unhandledExceptionHandler, true) with BatchingExecutor with LoadMetrics {
     override def execute(r: Runnable): Unit = r match {
       case m: Mailbox ⇒ super.execute(new MailboxExecutionTask(m))
       case other      ⇒ super.execute(other)
