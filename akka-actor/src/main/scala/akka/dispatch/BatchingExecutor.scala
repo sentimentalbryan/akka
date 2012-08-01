@@ -102,9 +102,9 @@ private[akka] trait BatchingExecutor extends Executor {
     }
   }
 
-  protected def unbatchedExecute(r: Runnable): Unit = super.execute(r)
+  protected def unbatchedExecute(r: Runnable): Unit
 
-  abstract override def execute(runnable: Runnable): Unit = {
+  override def execute(runnable: Runnable): Unit = {
     if (batchable(runnable)) { // If we can batch the runnable
       _tasksLocal.get match {
         case null ⇒ unbatchedExecute(new Batch(List(runnable))) // If we aren't in batching mode yet, enqueue batch
