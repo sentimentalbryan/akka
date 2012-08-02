@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="org.zeromq_zeromq-scala-binding_2.9.1_0.0.6">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/org.zeromq/zeromq-scala-binding_2.9.1/jars/zeromq-scala-binding_2.9.1-0.0.6.jar!/"></root>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.zeromq/zeromq-scala-binding_2.9.1/jars/zeromq-scala-binding_2.9.1-0.0.6.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.ivy2/cache/org.zeromq/zeromq-scala-binding_2.9.1/docs/zeromq-scala-binding_2.9.1-0.0.6-javadoc.jar!/"></root>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.zeromq/zeromq-scala-binding_2.9.1/docs/zeromq-scala-binding_2.9.1-0.0.6-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/org.zeromq/zeromq-scala-binding_2.9.1/srcs/zeromq-scala-binding_2.9.1-0.0.6-sources.jar!/"></root>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.zeromq/zeromq-scala-binding_2.9.1/srcs/zeromq-scala-binding_2.9.1-0.0.6-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

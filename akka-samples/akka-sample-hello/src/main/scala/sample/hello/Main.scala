@@ -17,7 +17,7 @@ object Main {
 class HelloActor extends Actor {
   val worldActor = context.actorOf(Props[WorldActor])
   def receive = {
-    case Start ⇒ worldActor ! "Hello"
+    case Start ⇒ worldActor ! "Hello World"
     case s: String ⇒
       println("Received message: %s".format(s))
       context.system.shutdown()

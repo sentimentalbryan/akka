@@ -1,46 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-docs-build.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-docs-build.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-build.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-build.iml" ></module>
-      <module 
-      fileurl="file://$PROJECT_DIR$/.idea_modules/akka-tutorial-first-build.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-tutorial-first-build.iml" >
-</module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-docs.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-docs.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-actor.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-actor.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-agent.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-agent.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-sample-hello.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-sample-hello.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-actor-migration.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-actor-migration.iml" >
-      </module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-mailboxes-common.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-mailboxes-common.iml" >
-      </module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-zookeeper-mailbox.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-zookeeper-mailbox.iml" >
-      </module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-kernel.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-kernel.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-sample-fsm.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-sample-fsm.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-actor-tests.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-actor-tests.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-transactor.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-transactor.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-testkit.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-testkit.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-beanstalk-mailbox.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-beanstalk-mailbox.iml" >
-      </module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-file-mailbox.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-file-mailbox.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-tutorials.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-tutorials.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-mongo-mailbox.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-mongo-mailbox.iml" ></module>
-      <module 
-      fileurl="file://$PROJECT_DIR$/.idea_modules/akka-sample-hello-kernel.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-sample-hello-kernel.iml" >
-</module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-sample-remote.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-sample-remote.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-zeromq.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-zeromq.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-redis-mailbox.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-redis-mailbox.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka.iml" filepath="$PROJECT_DIR$/.idea_modules/akka.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-remote.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-remote.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-tutorial-first.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-tutorial-first.iml" >
-      </module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-samples.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-samples.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-slf4j.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-slf4j.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-sbt-plugin.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-sbt-plugin.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-durable-mailboxes.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-durable-mailboxes.iml" >
-      </module>
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka.iml" filepath="$PROJECT_DIR$/.idea_modules/akka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-actor.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-actor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-actor-migration.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-actor-migration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-actor-tests.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-actor-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-agent.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-agent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-beanstalk-mailbox.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-beanstalk-mailbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-build.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-docs.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-docs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-docs-build.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-docs-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-durable-mailboxes.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-durable-mailboxes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-file-mailbox.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-file-mailbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-kernel.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-kernel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-mailboxes-common.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-mailboxes-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-mongo-mailbox.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-mongo-mailbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-redis-mailbox.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-redis-mailbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-remote.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-remote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-sample-fsm.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-sample-fsm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-sample-hello.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-sample-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-sample-hello-kernel.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-sample-hello-kernel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-sample-remote.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-sample-remote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-samples.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-sbt-plugin.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-sbt-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-slf4j.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-slf4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-testkit.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-testkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-transactor.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-transactor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-tutorial-first.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-tutorial-first.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-tutorial-first-build.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-tutorial-first-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-tutorials.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-tutorials.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-zeromq.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-zeromq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-zookeeper-mailbox.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-zookeeper-mailbox.iml" />
     </modules>
   </component>
 </project>
+

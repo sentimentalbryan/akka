@@ -1,33 +1,35 @@
-<module version="4" type="JAVA_MODULE">
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
   <component name="FacetManager">
-    <facet name="Scala" type="scala">
+    <facet type="scala" name="Scala">
       <configuration>
-        <option name="compilerLibraryLevel" value="Project"></option>
-        <option name="compilerLibraryName" value="scala-2.9.2"></option>
-        <option name="fsc" value="true"></option>
+        <option name="compilerLibraryLevel" value="Project" />
+        <option name="compilerLibraryName" value="scala-2.9.2" />
+        <option name="fsc" value="true" />
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
-    <output url="file://$MODULE_DIR$/../akka-transactor/target/classes"></output>
-    <output-test url="file://$MODULE_DIR$/../akka-transactor/target/test-classes"></output-test>
-    <exclude-output></exclude-output>
+    <output url="file://$MODULE_DIR$/../akka-transactor/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../akka-transactor/target/test-classes" />
+    <exclude-output />
     <content url="file://$MODULE_DIR$/../akka-transactor">
-      <sourceFolder url="file://$MODULE_DIR$/../akka-transactor/src/main/scala" isTestSource="false" ></sourceFolder>
-      <sourceFolder url="file://$MODULE_DIR$/../akka-transactor/src/main/java" isTestSource="false" ></sourceFolder>
-      <sourceFolder url="file://$MODULE_DIR$/../akka-transactor/src/main/resources" isTestSource="false" ></sourceFolder>
-      <sourceFolder url="file://$MODULE_DIR$/../akka-transactor/src/test/scala" isTestSource="true" ></sourceFolder>
-      <sourceFolder url="file://$MODULE_DIR$/../akka-transactor/src/test/java" isTestSource="true" ></sourceFolder>
-      <sourceFolder url="file://$MODULE_DIR$/../akka-transactor/src/test/resources" isTestSource="true" ></sourceFolder>
-      <excludeFolder url="file://$MODULE_DIR$/../akka-transactor/target"></excludeFolder>
+      <sourceFolder url="file://$MODULE_DIR$/../akka-transactor/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-transactor/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-transactor/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-transactor/src/test/scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-transactor/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-transactor/src/test/resources" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../akka-transactor/target" />
     </content>
-    <orderEntry type="inheritedJdk"></orderEntry>
-    <orderEntry type="sourceFolder" forTests="false"></orderEntry>
-    <orderEntry level="project" name="org.scala-lang_scala-library_2.9.2" type="library"></orderEntry>
-    <orderEntry level="project" name="org.scala-tools_scala-stm_2.9.1_0.5" type="library"></orderEntry>
-    <orderEntry type="library" name="org.scalatest_scalatest_2.9.1_1.6.1_test" level="project" scope="TEST"></orderEntry>
-    <orderEntry type="library" name="junit_junit_4.5_test" level="project" scope="TEST"></orderEntry>
-    <orderEntry type="module" module-name="akka-actor" exported=""></orderEntry>
-    <orderEntry type="module" module-name="akka-testkit" exported=""></orderEntry>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="org.scala-lang_scala-library_2.9.2" level="project" />
+    <orderEntry type="library" name="org.scala-tools_scala-stm_2.9.1_0.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="org.scalatest_scalatest_2.9.1_1.6.1_test" level="project" />
+    <orderEntry type="library" scope="TEST" name="junit_junit_4.5_test" level="project" />
+    <orderEntry type="module" module-name="akka-actor" exported="" />
+    <orderEntry type="module" module-name="akka-testkit" exported="" />
   </component>
 </module>
+

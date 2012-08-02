@@ -1,52 +1,54 @@
-<module version="4" type="JAVA_MODULE">
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
   <component name="FacetManager">
-    <facet name="Scala" type="scala">
+    <facet type="scala" name="Scala">
       <configuration>
-        <option name="compilerLibraryLevel" value="Project"></option>
-        <option name="compilerLibraryName" value="scala-2.9.2"></option>
-        <option name="fsc" value="true"></option>
+        <option name="compilerLibraryLevel" value="Project" />
+        <option name="compilerLibraryName" value="scala-2.9.2" />
+        <option name="fsc" value="true" />
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
-    <output url="file://$MODULE_DIR$/../akka-remote/target/classes"></output>
-    <output-test url="file://$MODULE_DIR$/../akka-remote/target/test-classes"></output-test>
-    <exclude-output></exclude-output>
+    <output url="file://$MODULE_DIR$/../akka-remote/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../akka-remote/target/test-classes" />
+    <exclude-output />
     <content url="file://$MODULE_DIR$/../akka-remote">
-      <sourceFolder url="file://$MODULE_DIR$/../akka-remote/src/main/scala" isTestSource="false" ></sourceFolder>
-      <sourceFolder url="file://$MODULE_DIR$/../akka-remote/src/main/java" isTestSource="false" ></sourceFolder>
-      <sourceFolder url="file://$MODULE_DIR$/../akka-remote/src/main/resources" isTestSource="false" ></sourceFolder>
-      <sourceFolder url="file://$MODULE_DIR$/../akka-remote/src/test/scala" isTestSource="true" ></sourceFolder>
-      <sourceFolder url="file://$MODULE_DIR$/../akka-remote/src/test/java" isTestSource="true" ></sourceFolder>
-      <sourceFolder url="file://$MODULE_DIR$/../akka-remote/src/test/resources" isTestSource="true" ></sourceFolder>
-      <excludeFolder url="file://$MODULE_DIR$/../akka-remote/target"></excludeFolder>
+      <sourceFolder url="file://$MODULE_DIR$/../akka-remote/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-remote/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-remote/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-remote/src/test/scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-remote/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-remote/src/test/resources" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../akka-remote/target" />
     </content>
-    <orderEntry type="inheritedJdk"></orderEntry>
-    <orderEntry type="sourceFolder" forTests="false"></orderEntry>
-    <orderEntry level="project" name="org.scala-lang_scala-library_2.9.2" type="library"></orderEntry>
-    <orderEntry level="project" name="io.netty_netty_3.3.0.Final" type="library"></orderEntry>
-    <orderEntry level="project" name="com.google.protobuf_protobuf-java_2.4.1" type="library"></orderEntry>
-    <orderEntry level="project" name="net.debasishg_sjson_2.9.1_0.15" type="library"></orderEntry>
-    <orderEntry level="project" name="net.databinder_dispatch-json_2.9.1_0.8.5" type="library"></orderEntry>
-    <orderEntry level="project" name="org.apache.httpcomponents_httpclient_4.1" type="library"></orderEntry>
-    <orderEntry level="project" name="org.apache.httpcomponents_httpcore_4.1" type="library"></orderEntry>
-    <orderEntry level="project" name="commons-logging_commons-logging_1.1.1" type="library"></orderEntry>
-    <orderEntry level="project" name="commons-codec_commons-codec_1.4" type="library"></orderEntry>
-    <orderEntry level="project" name="org.objenesis_objenesis_1.2" type="library"></orderEntry>
-    <orderEntry level="project" name="commons-io_commons-io_1.4" type="library"></orderEntry>
-    <orderEntry level="project" name="voldemort.store.compress_h2-lzf_1.0" type="library"></orderEntry>
-    <orderEntry type="library" name="org.scalatest_scalatest_2.9.1_1.6.1_test" level="project" scope="TEST"></orderEntry>
-    <orderEntry type="library" name="junit_junit_4.5_test" level="project" scope="TEST"></orderEntry>
-    <orderEntry type="library" name="org.codehaus.jackson_jackson-mapper-asl_1.8.0_test" level="project" scope="TEST"></orderEntry>
-    <orderEntry type="library" name="org.codehaus.jackson_jackson-core-asl_1.8.0_test" level="project" scope="TEST"></orderEntry>
-    <orderEntry type="library" name="org.apache.commons_commons-math_2.1_test" level="project" scope="TEST"></orderEntry>
-    <orderEntry type="library" name="org.mockito_mockito-all_1.8.1_test" level="project" scope="TEST"></orderEntry>
-    <orderEntry type="library" name="org.scala-tools.testing_scalacheck_2.9.1_1.9_test" level="project" scope="TEST"></orderEntry>
-    <orderEntry type="library" name="org.scala-tools.testing_test-interface_0.5_test" level="project" scope="TEST"></orderEntry>
-    <orderEntry type="library" name="org.apache.hadoop.zookeeper_zookeeper_3.4.0_test" level="project" scope="TEST"></orderEntry>
-    <orderEntry type="library" name="log4j_log4j_1.2.14_test" level="project" scope="TEST"></orderEntry>
-    <orderEntry type="module" module-name="akka-actor" exported=""></orderEntry>
-    <orderEntry type="module" module-name="akka-actor-tests" exported=""></orderEntry>
-    <orderEntry type="module" module-name="akka-testkit" exported=""></orderEntry>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="org.scala-lang_scala-library_2.9.2" level="project" />
+    <orderEntry type="library" name="io.netty_netty_3.3.0.Final" level="project" />
+    <orderEntry type="library" name="com.google.protobuf_protobuf-java_2.4.1" level="project" />
+    <orderEntry type="library" name="net.debasishg_sjson_2.9.1_0.15" level="project" />
+    <orderEntry type="library" name="net.databinder_dispatch-json_2.9.1_0.8.5" level="project" />
+    <orderEntry type="library" name="org.apache.httpcomponents_httpclient_4.1" level="project" />
+    <orderEntry type="library" name="org.apache.httpcomponents_httpcore_4.1" level="project" />
+    <orderEntry type="library" name="commons-logging_commons-logging_1.1.1" level="project" />
+    <orderEntry type="library" name="commons-codec_commons-codec_1.4" level="project" />
+    <orderEntry type="library" name="org.objenesis_objenesis_1.2" level="project" />
+    <orderEntry type="library" name="commons-io_commons-io_1.4" level="project" />
+    <orderEntry type="library" name="voldemort.store.compress_h2-lzf_1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="org.scalatest_scalatest_2.9.1_1.6.1_test" level="project" />
+    <orderEntry type="library" scope="TEST" name="junit_junit_4.5_test" level="project" />
+    <orderEntry type="library" scope="TEST" name="org.codehaus.jackson_jackson-mapper-asl_1.8.0_test" level="project" />
+    <orderEntry type="library" scope="TEST" name="org.codehaus.jackson_jackson-core-asl_1.8.0_test" level="project" />
+    <orderEntry type="library" scope="TEST" name="org.apache.commons_commons-math_2.1_test" level="project" />
+    <orderEntry type="library" scope="TEST" name="org.mockito_mockito-all_1.8.1_test" level="project" />
+    <orderEntry type="library" scope="TEST" name="org.scala-tools.testing_scalacheck_2.9.1_1.9_test" level="project" />
+    <orderEntry type="library" scope="TEST" name="org.scala-tools.testing_test-interface_0.5_test" level="project" />
+    <orderEntry type="library" scope="TEST" name="org.apache.hadoop.zookeeper_zookeeper_3.4.0_test" level="project" />
+    <orderEntry type="library" scope="TEST" name="log4j_log4j_1.2.14_test" level="project" />
+    <orderEntry type="module" module-name="akka-actor" exported="" />
+    <orderEntry type="module" module-name="akka-actor-tests" exported="" />
+    <orderEntry type="module" module-name="akka-testkit" exported="" />
   </component>
 </module>
+
