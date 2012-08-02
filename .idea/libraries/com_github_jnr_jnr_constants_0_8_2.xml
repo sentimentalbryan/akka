@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="com.github.jnr_jnr-constants_0.8.2">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.jnr/jnr-constants/jars/jnr-constants-0.8.2.jar!/" />
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.jnr/jnr-constants/jars/jnr-constants-0.8.2.jar!/"></root>
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.jnr/jnr-constants/docs/jnr-constants-0.8.2-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.jnr/jnr-constants/docs/jnr-constants-0.8.2-javadoc.jar!/"></root>
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.jnr/jnr-constants/srcs/jnr-constants-0.8.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.jnr/jnr-constants/srcs/jnr-constants-0.8.2-sources.jar!/"></root>
     </SOURCES>
   </library>
 </component>

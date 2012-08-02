@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="EntryPointsManager">
-    <entry_points version="2.0" />
+    <entry_points version="2.0"></entry_points>
   </component>
-  <component name="IdProvider" IDEtalkID="057D25C32EBC4A78925FD948C39AE901" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK" />
-  <component name="WebServicesPlugin" addRequiredLibraries="true" />
+  <component IDEtalkID="057D25C32EBC4A78925FD948C39AE901" name="IdProvider"></component>
+  <component 
+  project-jdk-type="JavaSDK" project-jdk-name="1.7" jdk-15="true" assert-keyword="true" languageLevel="JDK_1_7" version="2" name="ProjectRootManager">
+</component>
+  <component addRequiredLibraries="true" name="WebServicesPlugin"></component>
 </project>
-

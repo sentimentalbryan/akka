@@ -1,67 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
+<module version="4" type="JAVA_MODULE">
   <component name="FacetManager">
-    <facet type="scala" name="Scala">
+    <facet name="Scala" type="scala">
       <configuration>
-        <option name="compilerLibraryLevel" value="Project" />
-        <option name="compilerLibraryName" value="scala-2.9.1" />
-        <option name="fsc" value="true" />
+        <option name="compilerLibraryLevel" value="Project"></option>
+        <option name="compilerLibraryName" value="scala-2.9.1"></option>
+        <option name="fsc" value="true"></option>
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
-    <output url="file://$MODULE_DIR$/../akka-sbt-plugin/target/sbt-0.11.3/classes" />
-    <output-test url="file://$MODULE_DIR$/../akka-sbt-plugin/target/sbt-0.11.3/test-classes" />
-    <exclude-output />
+    <output url="file://$MODULE_DIR$/../akka-sbt-plugin/target/sbt-0.11.3/classes"></output>
+    <output-test url="file://$MODULE_DIR$/../akka-sbt-plugin/target/sbt-0.11.3/test-classes"></output-test>
+    <exclude-output></exclude-output>
     <content url="file://$MODULE_DIR$/../akka-sbt-plugin">
-      <sourceFolder url="file://$MODULE_DIR$/../akka-sbt-plugin/src/main/scala" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../akka-sbt-plugin/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../akka-sbt-plugin/src/main/resources" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../akka-sbt-plugin/src/test/scala" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../akka-sbt-plugin/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../akka-sbt-plugin/src/test/resources" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/../akka-sbt-plugin/target" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-sbt-plugin/src/main/scala" isTestSource="false" ></sourceFolder>
+      <sourceFolder url="file://$MODULE_DIR$/../akka-sbt-plugin/src/main/java" isTestSource="false" ></sourceFolder>
+      <sourceFolder url="file://$MODULE_DIR$/../akka-sbt-plugin/src/main/resources" isTestSource="false" ></sourceFolder>
+      <sourceFolder url="file://$MODULE_DIR$/../akka-sbt-plugin/src/test/scala" isTestSource="true" ></sourceFolder>
+      <sourceFolder url="file://$MODULE_DIR$/../akka-sbt-plugin/src/test/java" isTestSource="true" ></sourceFolder>
+      <sourceFolder url="file://$MODULE_DIR$/../akka-sbt-plugin/src/test/resources" isTestSource="true" ></sourceFolder>
+      <excludeFolder url="file://$MODULE_DIR$/../akka-sbt-plugin/target"></excludeFolder>
     </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_sbt_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_main_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_actions_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_classfile_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_io_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_control_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-lang_scala-library_2.9.1_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_interface_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_logging_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_process_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_classpath_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_launcher-interface_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-lang_scala-compiler_2.9.1_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_incremental-compiler_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_collections_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_api_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_persist_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-tools.sbinary_sbinary_2.9.0_0.4.0_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_compile_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_ivy_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.apache.ivy_ivy_2.2.0_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="com.jcraft_jsch_0.1.46_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="commons-httpclient_commons-httpclient_3.1_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="commons-logging_commons-logging_1.0.4_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="commons-codec_commons-codec_1.2_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_completion_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="jline_jline_0.9.94_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_run_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_task-system_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_tasks_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_tracking_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_cache_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_testing_2.9.1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-tools.testing_test-interface_0.5_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_compiler-interface_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_precompiled-2_8_2_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_precompiled-2_8_1_0.11.3_provided" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="org.scala-sbt_precompiled-2_9_2_0.11.3_provided" level="project" />
+    <orderEntry type="inheritedJdk"></orderEntry>
+    <orderEntry type="sourceFolder" forTests="false"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_sbt_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_main_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_actions_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_classfile_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_io_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_control_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-lang_scala-library_2.9.1_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_interface_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_logging_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_process_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_classpath_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_launcher-interface_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-lang_scala-compiler_2.9.1_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_incremental-compiler_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_collections_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_api_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_persist_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-tools.sbinary_sbinary_2.9.0_0.4.0_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_compile_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_ivy_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.apache.ivy_ivy_2.2.0_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="com.jcraft_jsch_0.1.46_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="commons-httpclient_commons-httpclient_3.1_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="commons-logging_commons-logging_1.0.4_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="commons-codec_commons-codec_1.2_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_completion_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="jline_jline_0.9.94_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_run_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_task-system_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_tasks_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_tracking_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_cache_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_testing_2.9.1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-tools.testing_test-interface_0.5_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_compiler-interface_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_precompiled-2_8_2_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_precompiled-2_8_1_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
+    <orderEntry type="library" name="org.scala-sbt_precompiled-2_9_2_0.11.3_provided" level="project" scope="PROVIDED"></orderEntry>
   </component>
 </module>
-

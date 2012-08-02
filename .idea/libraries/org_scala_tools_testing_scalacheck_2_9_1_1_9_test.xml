@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="org.scala-tools.testing_scalacheck_2.9.1_1.9_test">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-tools.testing/scalacheck_2.9.1/jars/scalacheck_2.9.1-1.9.jar!/" />
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-tools.testing/scalacheck_2.9.1/jars/scalacheck_2.9.1-1.9.jar!/"></root>
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-tools.testing/scalacheck_2.9.1/docs/scalacheck_2.9.1-1.9-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-tools.testing/scalacheck_2.9.1/docs/scalacheck_2.9.1-1.9-javadoc.jar!/"></root>
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-tools.testing/scalacheck_2.9.1/srcs/scalacheck_2.9.1-1.9-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-tools.testing/scalacheck_2.9.1/srcs/scalacheck_2.9.1-1.9-sources.jar!/"></root>
     </SOURCES>
   </library>
 </component>

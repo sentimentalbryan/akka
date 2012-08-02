@@ -1,73 +1,71 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
+<module version="4" type="JAVA_MODULE">
   <component name="FacetManager">
-    <facet type="scala" name="Scala">
+    <facet name="Scala" type="scala">
       <configuration>
-        <option name="compilerLibraryLevel" value="Project" />
-        <option name="compilerLibraryName" value="scala-2.9.2" />
-        <option name="fsc" value="true" />
+        <option name="compilerLibraryLevel" value="Project"></option>
+        <option name="compilerLibraryName" value="scala-2.9.2"></option>
+        <option name="fsc" value="true"></option>
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
-    <output url="file://$MODULE_DIR$/../akka-docs/target/classes" />
-    <output-test url="file://$MODULE_DIR$/../akka-docs/target/test-classes" />
-    <exclude-output />
+    <output url="file://$MODULE_DIR$/../akka-docs/target/classes"></output>
+    <output-test url="file://$MODULE_DIR$/../akka-docs/target/test-classes"></output-test>
+    <exclude-output></exclude-output>
     <content url="file://$MODULE_DIR$/../akka-docs">
-      <sourceFolder url="file://$MODULE_DIR$/../akka-docs/src/main/scala" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../akka-docs/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../akka-docs/src/main/resources" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../akka-docs/java/code" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../akka-docs/general/code" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../akka-docs/scala/code" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../akka-docs/modules/code" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../akka-docs/src/test/resources" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/../akka-docs/target" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-docs/src/main/scala" isTestSource="false" ></sourceFolder>
+      <sourceFolder url="file://$MODULE_DIR$/../akka-docs/src/main/java" isTestSource="false" ></sourceFolder>
+      <sourceFolder url="file://$MODULE_DIR$/../akka-docs/src/main/resources" isTestSource="false" ></sourceFolder>
+      <sourceFolder url="file://$MODULE_DIR$/../akka-docs/java/code" isTestSource="true" ></sourceFolder>
+      <sourceFolder url="file://$MODULE_DIR$/../akka-docs/general/code" isTestSource="true" ></sourceFolder>
+      <sourceFolder url="file://$MODULE_DIR$/../akka-docs/scala/code" isTestSource="true" ></sourceFolder>
+      <sourceFolder url="file://$MODULE_DIR$/../akka-docs/modules/code" isTestSource="true" ></sourceFolder>
+      <sourceFolder url="file://$MODULE_DIR$/../akka-docs/src/test/resources" isTestSource="true" ></sourceFolder>
+      <excludeFolder url="file://$MODULE_DIR$/../akka-docs/target"></excludeFolder>
     </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="org.scala-lang_scala-library_2.9.2" level="project" />
-    <orderEntry type="library" name="io.netty_netty_3.3.0.Final" level="project" />
-    <orderEntry type="library" name="com.google.protobuf_protobuf-java_2.4.1" level="project" />
-    <orderEntry type="library" name="net.debasishg_sjson_2.9.1_0.15" level="project" />
-    <orderEntry type="library" name="net.databinder_dispatch-json_2.9.1_0.8.5" level="project" />
-    <orderEntry type="library" name="org.apache.httpcomponents_httpclient_4.1" level="project" />
-    <orderEntry type="library" name="org.apache.httpcomponents_httpcore_4.1" level="project" />
-    <orderEntry type="library" name="commons-logging_commons-logging_1.1.1" level="project" />
-    <orderEntry type="library" name="commons-codec_commons-codec_1.4" level="project" />
-    <orderEntry type="library" name="org.objenesis_objenesis_1.2" level="project" />
-    <orderEntry type="library" name="voldemort.store.compress_h2-lzf_1.0" level="project" />
-    <orderEntry type="library" name="org.slf4j_slf4j-api_1.6.4" level="project" />
-    <orderEntry type="library" name="org.scala-tools_scala-stm_2.9.1_0.5" level="project" />
-    <orderEntry type="library" name="commons-io_commons-io_2.0.1" level="project" />
-    <orderEntry type="library" name="com.mongodb.async_bson-driver_2.9.0-1_0.2.9-1" level="project" />
-    <orderEntry type="library" name="org.scalaj_scalaj-collection_2.9.0-1_1.2" level="project" />
-    <orderEntry type="library" name="com.twitter_util-core_1.12.2" level="project" />
-    <orderEntry type="library" name="org.mongodb_mongo-java-driver_2.7.1" level="project" />
-    <orderEntry type="library" name="com.mongodb.async_mongo-driver_2.9.0-1_0.2.9-1" level="project" />
-    <orderEntry type="library" name="commons-pool_commons-pool_1.5.6" level="project" />
-    <orderEntry type="library" name="net.debasishg_redisclient_2.9.1_2.4.0" level="project" />
-    <orderEntry type="library" name="beanstalk_beanstalk_client_1.4.5" level="project" />
-    <orderEntry type="library" name="zkclient_zkclient_0.3" level="project" />
-    <orderEntry type="library" name="org.apache.hadoop.zookeeper_zookeeper_3.4.0" level="project" />
-    <orderEntry type="library" name="log4j_log4j_1.2.14" level="project" />
-    <orderEntry type="library" name="org.zeromq_zeromq-scala-binding_2.9.1_0.0.6" level="project" />
-    <orderEntry type="library" name="net.java.dev.jna_jna_3.0.9" level="project" />
-    <orderEntry type="library" name="com.github.jnr_jnr-constants_0.8.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="org.scalatest_scalatest_2.9.1_1.6.1_test" level="project" />
-    <orderEntry type="library" scope="TEST" name="junit_junit_4.5_test" level="project" />
-    <orderEntry type="module" module-name="akka-actor" exported="" />
-    <orderEntry type="module" module-name="akka-testkit" exported="" />
-    <orderEntry type="module" module-name="akka-remote" exported="" />
-    <orderEntry type="module" module-name="akka-slf4j" exported="" />
-    <orderEntry type="module" module-name="akka-agent" exported="" />
-    <orderEntry type="module" module-name="akka-transactor" exported="" />
-    <orderEntry type="module" module-name="akka-file-mailbox" exported="" />
-    <orderEntry type="module" module-name="akka-mongo-mailbox" exported="" />
-    <orderEntry type="module" module-name="akka-redis-mailbox" exported="" />
-    <orderEntry type="module" module-name="akka-beanstalk-mailbox" exported="" />
-    <orderEntry type="module" module-name="akka-zookeeper-mailbox" exported="" />
-    <orderEntry type="module" module-name="akka-zeromq" exported="" />
+    <orderEntry type="inheritedJdk"></orderEntry>
+    <orderEntry type="sourceFolder" forTests="false"></orderEntry>
+    <orderEntry level="project" name="org.scala-lang_scala-library_2.9.2" type="library"></orderEntry>
+    <orderEntry level="project" name="io.netty_netty_3.3.0.Final" type="library"></orderEntry>
+    <orderEntry level="project" name="com.google.protobuf_protobuf-java_2.4.1" type="library"></orderEntry>
+    <orderEntry level="project" name="net.debasishg_sjson_2.9.1_0.15" type="library"></orderEntry>
+    <orderEntry level="project" name="net.databinder_dispatch-json_2.9.1_0.8.5" type="library"></orderEntry>
+    <orderEntry level="project" name="org.apache.httpcomponents_httpclient_4.1" type="library"></orderEntry>
+    <orderEntry level="project" name="org.apache.httpcomponents_httpcore_4.1" type="library"></orderEntry>
+    <orderEntry level="project" name="commons-logging_commons-logging_1.1.1" type="library"></orderEntry>
+    <orderEntry level="project" name="commons-codec_commons-codec_1.4" type="library"></orderEntry>
+    <orderEntry level="project" name="org.objenesis_objenesis_1.2" type="library"></orderEntry>
+    <orderEntry level="project" name="voldemort.store.compress_h2-lzf_1.0" type="library"></orderEntry>
+    <orderEntry level="project" name="org.slf4j_slf4j-api_1.6.4" type="library"></orderEntry>
+    <orderEntry level="project" name="org.scala-tools_scala-stm_2.9.1_0.5" type="library"></orderEntry>
+    <orderEntry level="project" name="commons-io_commons-io_2.0.1" type="library"></orderEntry>
+    <orderEntry level="project" name="com.mongodb.async_bson-driver_2.9.0-1_0.2.9-1" type="library"></orderEntry>
+    <orderEntry level="project" name="org.scalaj_scalaj-collection_2.9.0-1_1.2" type="library"></orderEntry>
+    <orderEntry level="project" name="com.twitter_util-core_1.12.2" type="library"></orderEntry>
+    <orderEntry level="project" name="org.mongodb_mongo-java-driver_2.7.1" type="library"></orderEntry>
+    <orderEntry level="project" name="com.mongodb.async_mongo-driver_2.9.0-1_0.2.9-1" type="library"></orderEntry>
+    <orderEntry level="project" name="commons-pool_commons-pool_1.5.6" type="library"></orderEntry>
+    <orderEntry level="project" name="net.debasishg_redisclient_2.9.1_2.4.0" type="library"></orderEntry>
+    <orderEntry level="project" name="beanstalk_beanstalk_client_1.4.5" type="library"></orderEntry>
+    <orderEntry level="project" name="zkclient_zkclient_0.3" type="library"></orderEntry>
+    <orderEntry level="project" name="org.apache.hadoop.zookeeper_zookeeper_3.4.0" type="library"></orderEntry>
+    <orderEntry level="project" name="log4j_log4j_1.2.14" type="library"></orderEntry>
+    <orderEntry level="project" name="org.zeromq_zeromq-scala-binding_2.9.1_0.0.6" type="library"></orderEntry>
+    <orderEntry level="project" name="net.java.dev.jna_jna_3.0.9" type="library"></orderEntry>
+    <orderEntry level="project" name="com.github.jnr_jnr-constants_0.8.2" type="library"></orderEntry>
+    <orderEntry type="library" name="org.scalatest_scalatest_2.9.1_1.6.1_test" level="project" scope="TEST"></orderEntry>
+    <orderEntry type="library" name="junit_junit_4.5_test" level="project" scope="TEST"></orderEntry>
+    <orderEntry type="module" module-name="akka-actor" exported=""></orderEntry>
+    <orderEntry type="module" module-name="akka-testkit" exported=""></orderEntry>
+    <orderEntry type="module" module-name="akka-remote" exported=""></orderEntry>
+    <orderEntry type="module" module-name="akka-slf4j" exported=""></orderEntry>
+    <orderEntry type="module" module-name="akka-agent" exported=""></orderEntry>
+    <orderEntry type="module" module-name="akka-transactor" exported=""></orderEntry>
+    <orderEntry type="module" module-name="akka-file-mailbox" exported=""></orderEntry>
+    <orderEntry type="module" module-name="akka-mongo-mailbox" exported=""></orderEntry>
+    <orderEntry type="module" module-name="akka-redis-mailbox" exported=""></orderEntry>
+    <orderEntry type="module" module-name="akka-beanstalk-mailbox" exported=""></orderEntry>
+    <orderEntry type="module" module-name="akka-zookeeper-mailbox" exported=""></orderEntry>
+    <orderEntry type="module" module-name="akka-zeromq" exported=""></orderEntry>
   </component>
 </module>
-

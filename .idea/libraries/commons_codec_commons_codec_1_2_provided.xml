@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="commons-codec_commons-codec_1.2_provided">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.2.jar!/"></root>
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.ivy2/cache/commons-codec/commons-codec/docs/commons-codec-1.2-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.ivy2/cache/commons-codec/commons-codec/docs/commons-codec-1.2-javadoc.jar!/"></root>
     </JAVADOC>
-    <SOURCES />
+    <SOURCES> </SOURCES>
   </library>
 </component>

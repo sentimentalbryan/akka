@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="com.mongodb.async_bson-driver_2.9.0-1_0.2.9-1">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/com.mongodb.async/bson-driver_2.9.0-1/jars/bson-driver_2.9.0-1-0.2.9-1.jar!/" />
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.mongodb.async/bson-driver_2.9.0-1/jars/bson-driver_2.9.0-1-0.2.9-1.jar!/"></root>
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.ivy2/cache/com.mongodb.async/bson-driver_2.9.0-1/docs/bson-driver_2.9.0-1-0.2.9-1-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.mongodb.async/bson-driver_2.9.0-1/docs/bson-driver_2.9.0-1-0.2.9-1-javadoc.jar!/"></root>
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/com.mongodb.async/bson-driver_2.9.0-1/srcs/bson-driver_2.9.0-1-0.2.9-1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.mongodb.async/bson-driver_2.9.0-1/srcs/bson-driver_2.9.0-1-0.2.9-1-sources.jar!/"></root>
     </SOURCES>
   </library>
 </component>

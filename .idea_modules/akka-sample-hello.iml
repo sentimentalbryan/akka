@@ -1,31 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
+<module version="4" type="JAVA_MODULE">
   <component name="FacetManager">
-    <facet type="scala" name="Scala">
+    <facet name="Scala" type="scala">
       <configuration>
-        <option name="compilerLibraryLevel" value="Project" />
-        <option name="compilerLibraryName" value="scala-2.9.2" />
-        <option name="fsc" value="true" />
+        <option name="compilerLibraryLevel" value="Project"></option>
+        <option name="compilerLibraryName" value="scala-2.9.2"></option>
+        <option name="fsc" value="true"></option>
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
-    <output url="file://$MODULE_DIR$/../akka-samples/akka-sample-hello/target/classes" />
-    <output-test url="file://$MODULE_DIR$/../akka-samples/akka-sample-hello/target/test-classes" />
-    <exclude-output />
+    <output url="file://$MODULE_DIR$/../akka-samples/akka-sample-hello/target/classes"></output>
+    <output-test url="file://$MODULE_DIR$/../akka-samples/akka-sample-hello/target/test-classes"></output-test>
+    <exclude-output></exclude-output>
     <content url="file://$MODULE_DIR$/../akka-samples/akka-sample-hello">
-      <sourceFolder url="file://$MODULE_DIR$/../akka-samples/akka-sample-hello/src/main/scala" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../akka-samples/akka-sample-hello/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../akka-samples/akka-sample-hello/src/main/resources" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../akka-samples/akka-sample-hello/src/test/scala" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../akka-samples/akka-sample-hello/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../akka-samples/akka-sample-hello/src/test/resources" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/../akka-samples/akka-sample-hello/target" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-samples/akka-sample-hello/src/main/scala" isTestSource="false" ></sourceFolder>
+      <sourceFolder url="file://$MODULE_DIR$/../akka-samples/akka-sample-hello/src/main/java" isTestSource="false" ></sourceFolder>
+      <sourceFolder url="file://$MODULE_DIR$/../akka-samples/akka-sample-hello/src/main/resources" isTestSource="false" ></sourceFolder>
+      <sourceFolder url="file://$MODULE_DIR$/../akka-samples/akka-sample-hello/src/test/scala" isTestSource="true" ></sourceFolder>
+      <sourceFolder url="file://$MODULE_DIR$/../akka-samples/akka-sample-hello/src/test/java" isTestSource="true" ></sourceFolder>
+      <sourceFolder url="file://$MODULE_DIR$/../akka-samples/akka-sample-hello/src/test/resources" isTestSource="true" ></sourceFolder>
+      <excludeFolder url="file://$MODULE_DIR$/../akka-samples/akka-sample-hello/target"></excludeFolder>
     </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="org.scala-lang_scala-library_2.9.2" level="project" />
-    <orderEntry type="module" module-name="akka-actor" exported="" />
+    <orderEntry type="inheritedJdk"></orderEntry>
+    <orderEntry type="sourceFolder" forTests="false"></orderEntry>
+    <orderEntry level="project" name="org.scala-lang_scala-library_2.9.2" type="library"></orderEntry>
+    <orderEntry type="module" module-name="akka-actor" exported=""></orderEntry>
   </component>
 </module>
-

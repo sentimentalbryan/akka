@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="org.scala-sbt_tasks_2.9.1_0.11.3_provided">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/tasks_2.9.1/jars/tasks_2.9.1-0.11.3.jar!/" />
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/tasks_2.9.1/jars/tasks_2.9.1-0.11.3.jar!/"></root>
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC> </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/tasks_2.9.1/srcs/tasks_2.9.1-0.11.3-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/tasks_2.9.1/srcs/tasks_2.9.1-0.11.3-sources.jar!/"></root>
     </SOURCES>
   </library>
 </component>
