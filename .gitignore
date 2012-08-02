@@ -37,14 +37,11 @@ tm.out
 *.tm.epoch
 .DS_Store
 *.iws
-*.ipr
-*.iml
 run-codefellow
 .project
 .settings
 .classpath
 .cache
-.idea
 .scala_dependencies
 .cache
 multiverse.log

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="scala" name="Scala">
+      <configuration>
+        <option name="compilerLibraryLevel" value="Project" />
+        <option name="compilerLibraryName" value="scala-2.9.2" />
+        <option name="fsc" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../akka-tutorials/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../akka-tutorials/target/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../akka-tutorials">
+      <sourceFolder url="file://$MODULE_DIR$/../akka-tutorials/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-tutorials/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-tutorials/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-tutorials/src/test/scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-tutorials/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-tutorials/src/test/resources" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../akka-tutorials/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="org.scala-lang_scala-library_2.9.2" level="project" />
+    <orderEntry type="module" module-name="akka-tutorial-first" exported="" />
+  </component>
+</module>
+

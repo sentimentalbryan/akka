@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="scala" name="Scala">
+      <configuration>
+        <option name="compilerLibraryLevel" value="Project" />
+        <option name="compilerLibraryName" value="scala-2.9.2" />
+        <option name="fsc" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../akka-actor-tests/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../akka-actor-tests/target/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../akka-actor-tests">
+      <sourceFolder url="file://$MODULE_DIR$/../akka-actor-tests/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-actor-tests/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-actor-tests/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-actor-tests/src/test/scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-actor-tests/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-actor-tests/src/test/resources" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../akka-actor-tests/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="org.scala-lang_scala-library_2.9.2" level="project" />
+    <orderEntry type="library" name="com.google.protobuf_protobuf-java_2.4.1" level="project" />
+    <orderEntry type="library" name="org.codehaus.jackson_jackson-mapper-asl_1.8.0" level="project" />
+    <orderEntry type="library" name="org.codehaus.jackson_jackson-core-asl_1.8.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="org.scalatest_scalatest_2.9.1_1.6.1_test" level="project" />
+    <orderEntry type="library" scope="TEST" name="junit_junit_4.5_test" level="project" />
+    <orderEntry type="library" scope="TEST" name="org.apache.commons_commons-math_2.1_test" level="project" />
+    <orderEntry type="library" scope="TEST" name="org.mockito_mockito-all_1.8.1_test" level="project" />
+    <orderEntry type="library" scope="TEST" name="org.scala-tools.testing_scalacheck_2.9.1_1.9_test" level="project" />
+    <orderEntry type="library" scope="TEST" name="org.scala-tools.testing_test-interface_0.5_test" level="project" />
+    <orderEntry type="module" module-name="akka-testkit" exported="" />
+  </component>
+</module>
+

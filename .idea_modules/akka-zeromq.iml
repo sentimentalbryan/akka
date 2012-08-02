@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="scala" name="Scala">
+      <configuration>
+        <option name="compilerLibraryLevel" value="Project" />
+        <option name="compilerLibraryName" value="scala-2.9.2" />
+        <option name="fsc" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../akka-zeromq/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../akka-zeromq/target/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../akka-zeromq">
+      <sourceFolder url="file://$MODULE_DIR$/../akka-zeromq/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-zeromq/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-zeromq/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-zeromq/src/test/scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-zeromq/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../akka-zeromq/src/test/resources" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../akka-zeromq/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="org.scala-lang_scala-library_2.9.2" level="project" />
+    <orderEntry type="library" name="com.google.protobuf_protobuf-java_2.4.1" level="project" />
+    <orderEntry type="library" name="org.zeromq_zeromq-scala-binding_2.9.1_0.0.6" level="project" />
+    <orderEntry type="library" name="net.java.dev.jna_jna_3.0.9" level="project" />
+    <orderEntry type="library" name="com.github.jnr_jnr-constants_0.8.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="org.scalatest_scalatest_2.9.1_1.6.1_test" level="project" />
+    <orderEntry type="library" scope="TEST" name="junit_junit_4.5_test" level="project" />
+    <orderEntry type="module" module-name="akka-actor" exported="" />
+    <orderEntry type="module" module-name="akka-testkit" exported="" />
+  </component>
+</module>
+
